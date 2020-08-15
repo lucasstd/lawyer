@@ -1,10 +1,7 @@
 import App from "next/app";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Head from "next/head";
-import styledNormalize from "styled-normalize";
-import { createGlobalStyle } from "styled-components";
-
-const NormalizeStyle = createGlobalStyle`${styledNormalize}`;
+import "../styles/global.css";
 
 class MainApp extends App {
   static async getInitialProps({ Component, ctx }) {
