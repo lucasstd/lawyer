@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Navbar, NavDropdown, Nav } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 
 export default class Header extends Component {
   render() {
@@ -13,38 +13,21 @@ export default class Header extends Component {
           <Navbar.Brand href="/" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
             Daiana Staudt
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" style={{ color: "rgba(255, 255, 255, 0.8)" }}/>
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav>
-              <b>
-                <Nav.Link
-                  href="#contato"
-                  style={{ color: "rgba(255, 255, 255, 0.8)" }}
-                >
-                  Contato
-                </Nav.Link>
-              </b>
-              <b>
-                <Nav.Link href="#sobre" className="color-green">
-                  Sobre
-                </Nav.Link>
-              </b>
-              <b>
-                <Nav.Link
-                  href="#blog"
-                  style={{ color: "rgba(255, 255, 255, 0.8)" }}
-                >
+              <Nav.Link href="#contato" className="color-white">
+                Contato
+              </Nav.Link>
+              <Nav.Link href="#sobre" className="color-white" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
+                Sobre
+              </Nav.Link>
+              <Nav.Link href="#blog" className="color-white" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
                   Blog
-                </Nav.Link>
-              </b>
-              <b>
-                <Nav.Link
-                  href="#eventos"
-                  style={{ color: "rgba(255, 255, 255, 0.8)" }}
-                >
-                  Eventos
-                </Nav.Link>
-              </b>
+              </Nav.Link>
+              <Nav.Link href="#eventos" className="color-white" style={{ color: "rgba(255, 255, 255, 0.8)" }}>
+                Eventos
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
