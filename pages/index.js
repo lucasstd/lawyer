@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Footer from "../components/common/Footer";
 import Header from "../components/common/Navbar";
+import Inscrever from "../components/home/Subscribe";
+import BackgroundInfo from "../components/home/BackgroundInfo";
+import Card from "../components/home/Card";
 
 export default class Home extends Component {
   render() {
@@ -8,10 +11,11 @@ export default class Home extends Component {
       <>
         <Header />
         
-        <img className="max-width" src="/images/bg.jpg" alt="imagem de fundo" style={{ width: "100%"}} />
-        <main>
-          <p>-</p>
-        </main>
+        <BackgroundInfo />
+        <Inscrever />
+        <Card />
+        <Card />
+        <Card />
 
         <Footer />
       </>
