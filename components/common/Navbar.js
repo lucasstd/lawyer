@@ -8,6 +8,7 @@ export default class Header extends Component {
         <Navbar
           collapseOnSelect
           expand="sm"
+          fixed="top"
           style={{ backgroundColor: "#74B8B9" }}
         >
           <div className="container">

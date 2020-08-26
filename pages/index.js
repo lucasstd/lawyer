@@ -3,7 +3,7 @@ import Footer from "../components/common/Footer";
 import Header from "../components/common/Navbar";
 import Inscrever from "../components/home/Subscribe";
 import BackgroundInfo from "../components/home/BackgroundInfo";
-import Card from "../components/home/Card";
+import Cards from "../components/home/Cards";
 
 export default class Home extends Component {
   render() {
@@ -13,9 +13,7 @@ export default class Home extends Component {
         
         <BackgroundInfo />
         <Inscrever />
-        <Card />
-        <Card />
-        <Card />
+        <Cards />
 
         <Footer />
       </>

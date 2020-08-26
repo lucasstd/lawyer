@@ -8,11 +8,11 @@ export default class Footer extends Component {
     return (
       <Section>
         <div id="inscrever" className="container text-center">
-          <p class="h4 mb-4">Inscreva-se para ficar por dentro das novidades</p>
+          <p className="h4 mb-4">Inscreva-se para ficar por dentro das novidades</p>
 
-          <input type="email" id="defaultLoginFormEmail" class="form-control mb-4" placeholder="E-mail" />
+          <input type="email" id="defaultLoginFormEmail" className="form-control mb-4" placeholder="E-mail" />
           
-          <input type="password" id="defaultLoginFormPassword" class="form-control mb-4" placeholder="Profissao" />
+          <input type="password" id="defaultLoginFormPassword" className="form-control mb-4" placeholder="Profissao" />
 
           <button type="button" className="btn" style={{ backgroundColor: "#74B8B9", color: "white" }}>Cadastre-se</button>
         </div>

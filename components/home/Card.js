@@ -2,31 +2,30 @@ import React, { Component } from 'react';
 import styled from "@emotion/styled";
 
 const CardStyle = styled("div")`
-  display: flex;
+  border-radius: 4px;
   justify-content: center;
   background: url(/images/bg.jpg);
   background-size: cover;
-  color: white;
-  margin: 30px;
-  width: 240px;
-  height: 250px;
+  color: #C8C8C8;
+  margin: 1.5em;
+  width: 300px;
+  height: 240px;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
+  &:hover {
+    box-shadow: 0 14px 18px #C8C8C8;
+  }
 `;
 
 function Card() {
     return (
-        <CardStyle className="container">
+        <CardStyle className="container card">
             <div className="card-image">
-                <div className="py-5 px-4">
-                    <div>
-                    <h5 className="pink-text"><i className="fas fa-chart-pie"></i> Marketing</h5>
-                    <h3 className="card-title pt-2"><strong>This is the card title</strong></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat fugiat, laboriosam, voluptatem,
-                        optio vero odio nam sit officia accusamus minus error nisi architecto nulla ipsum dignissimos.
-                        Odit sed qui, dolorum!.</p>
-                    <a className="btn btn-pink"><i className="fas fa-clone left"></i> View project</a>
-                    </div>
+                <div className="">
+                    <h5 className="pink-text"><i className="fas fa-chart-pie"></i> Direito penal</h5>
+                    <h3 className="card-title pt-2"><strong>Covid e os impactos</strong></h3>
+                    <p>Lorem ipsum dolor sit bla</p>
+                    <a className=""><i className="fas fa-clone left"></i> Leia mais</a>
                 </div>
             </div>
         </CardStyle>
